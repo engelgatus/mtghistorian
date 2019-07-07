@@ -1,0 +1,538 @@
+* { 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+	font-family: 'PT Sans', serif; 
+	scroll-behavior: smooth; 
+}
+
+/*nav style*/
+
+#navbar-nav {
+	font-family: 'PT Sans', sans-serif;
+}
+
+#nav-phrase {
+	letter-spacing: 3px;
+
+}
+
+/*end of nav style*/
+
+
+
+/*landing page*/
+
+#landing-body {
+	background-image: url(../images/landingbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+#landing-heading {
+	font-family: 'Judson', sans-serif;
+	text-transform: uppercase;
+	font-size: 100px;
+	color: #fff;
+	letter-spacing: 3px;
+	animation-duration: 4s;
+}
+
+#landing-container {
+	margin-bottom: 200px;
+
+}	
+
+.sub-h {
+	font-family: 'PT Sans', sans-serif;
+	color: rgba(254,252,253,0.75);
+}
+
+#landing-btn {
+	animation-duration: 5s;
+}
+
+
+#landing-btn-txt {
+	text-transform: uppercase;
+}
+
+div#landing-btn > button#landing-btn-txt:hover {
+	background-color: rgba(254,252,253,0.55);
+	border-color: rgba(254,252,253,0.35);	
+}
+
+#landing-footer-txt {
+	color: rgba(254,252,253,1);
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+#landing-icon {
+	animation-duration: 3s;
+}
+
+
+/*end of landing page*/
+
+
+
+
+/*contact page*/
+
+#contact-body {
+	font-family: 'Poppins', sans-serif;
+	/*background-color: rgba(0,5,5,1);*/
+	background-image: url(../images/symbol.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#contact-nav,
+#pw-nav,
+#about-nav,
+#home-nav {
+	background-color: rgba(0,5,5,0.5);
+	padding: 0 20px;
+}
+
+#contact-container {
+	margin-right: 0;
+}
+
+.contact-form {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#contact-heading {
+	margin-bottom: 40px;
+}
+
+#contact-h1 {
+	color: rgba(254,252,253,1);
+}
+
+.contact-label {
+	text-transform: uppercase;
+}
+
+#contact-btn {
+	padding: 5px 10px;
+	margin-bottom: 20px;
+}
+
+#contact-footer {
+	color: rgba(254,252,253,0.75);
+}
+
+
+
+#g-map {
+	width: 90%;
+	display: block;
+	border: none;
+	height: 70vh;
+	border-radius: 20px;
+}
+
+/*end of contact page */
+
+
+
+/*planeswalkers page */
+
+#pw-body {
+	background-image: url(../images/symbol.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+#pw-cards-1 {
+	margin-top: 40px;
+}
+
+
+div.card-body > h3.card-title {
+	background-color: rgba(254,252,253,0.4);
+	font-size: 40px;
+	border-radius: 10px;
+	padding-right: 10px;
+	font-family: 'DM Serif Display'
+
+}
+
+.pw-modal-title {
+	font-size: 50px;
+	text-align: center;
+	font-family: 'DM Serif Display', sans-serif;
+	letter-spacing: 2px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.pw-modal-button {
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+
+.pw-modal-sub {
+	font-size: 24px;
+	letter-spacing: 2px;
+	margin-top: 15px;
+}
+
+.pw-modal-button:hover {
+	text-decoration: none;
+	border-radius: 10px;
+}
+	
+
+/*end of planewalkers page*/
+
+/*about page*/
+
+#about-nav {
+	background-image: url(../images/nav-img.jpg);
+	background-repeat: no-repeat;
+	vertical-align: center;
+	background-size: cover;
+
+}
+
+#about-body {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+#about-section-top {
+	background-image: url(../images/about-img-top.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 70vh;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+#about-h {
+	margin-top: 30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+#about-h2 {
+	font-size: 80px;
+}
+
+#about-mtg,
+#about-origins {
+	margin-top: 30px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+#about-img-1,
+#about-img-2 {
+	border-radius: 10px;
+	vertical-align: center;
+}
+
+#about-mtg-txt-1,
+#about-mtg-txt-2 {
+	margin-top: 30px;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+#about-footer,
+#home-footer {
+	margin-top: 30px;
+}
+
+
+
+
+/*end of about page*/
+
+
+
+/*home page*/
+
+#home-body {
+
+}
+
+#home-section-top {
+	background-image: url(../images/home-img-top.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80vh;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+#home-nav {
+	background-image: url(../images/home-nav-img.jpg);
+	background-repeat: no-repeat;
+	vertical-align: center;
+	background-size: cover;
+}
+
+#home-crop {
+	position: absolute;
+	top: 0;
+	width: 100%;
+
+}
+
+#home-h1 {
+	font-size: 70px;
+	margin-top: 10px;
+	font-family: 'Judson', sans-serif;
+	letter-spacing: 2px;
+}
+
+#home-logo-top {
+	margin-top: 220px;
+}
+
+#home-gallery-row,
+#home-spark-row {
+	margin-top: 40px;
+	border: 1px solid rgba(0,5,5,0.5);
+	border-radius: 10px;
+	padding: 20px 10px;
+}
+
+#home-pw-img {
+	border-radius: 10px;
+}
+
+#home-row-1-h,
+#home-row-2-h {
+	font-size: 60px;
+	letter-spacing: 3px;
+}
+
+#home-row-1-txt,
+#home-row-2-txt {
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+#home-footer-txt {
+	color: #333;
+}
+
+.home-card-h4 {
+	font-size: 55px;
+	letter-spacing: 2px;	
+}
+
+.home-card-txt {
+	font-size: 25px;
+	letter-spacing: 2px;
+}
+
+
+/*end of home page*/
+
+
+/*Mobile Styles*/
+@media only screen and (max-width: 400px) {
+	#landing-body {
+		vertical-align: center;
+		background-position: 50% 50%;
+	}
+
+	#landing-contact {
+		vertical-align: center;
+		background-position: 50% 50%;
+	}
+
+	#landing-container {
+		margin-bottom: 70px;
+	}
+
+	#landing-heading {
+		font-size: 50px;
+		margin-top: 40px;
+		margin-bottom: 100px;
+	}
+
+	#landing-footer {
+		margin-top: 60px;
+	}
+
+	#landing-nav {
+		justify-content: left;
+	}
+
+	#landing-nav-brand {
+		display: none;
+	}
+
+	#g-map {
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	#contact-body {
+		vertical-align: center;
+		background-position: 50% 50%;
+		width: 100%;
+	}
+
+	#contact-container {
+		color: #5B5B60;
+	}
+
+	#pw-body {
+		vertical-align: center;
+		background-position: 50% 50%;
+	}
+
+	#about-section-top {
+		height: 15	vh;
+		background-size: contain;
+	}
+
+	#home-img-say {
+		margin-top: 10px;
+	}
+
+	#home-card-txt-2 {
+		text-align: justify;
+	}
+
+	#home-row-2-h {
+		font-size: 40px;
+	}
+
+	#home-section-top {
+		background-size: contain;
+		height: 30vh
+	}
+
+	#home-crop {
+		display: none;
+	}
+
+	#home-nav {
+		background-color: (0,5,5,0.5);
+		background-size: cover;
+	}
+
+	#home-logo-top {
+		margin-top: 50px;
+	}
+
+	#home-h1 {
+		text-align: center;
+	}
+}
+
+/*Tablet Style*/
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+	#landing-body {
+		vertical-align: center;
+		background-position: 50% 50%;
+	}
+
+	#landing-contact {
+		vertical-align: center;
+		background-position: 50% 50%;
+	}
+
+	#landing-container {
+		margin-bottom: 70px;
+	}
+
+	#landing-heading {
+		font-size: 50px;
+		margin-top: 40px;
+		margin-bottom: 100px;
+	}
+
+	#landing-footer {
+		margin-top: 60px;
+	}
+
+	#landing-nav {
+		justify-content: left;
+	}
+
+	#landing-nav-brand {
+		display: none;
+	}
+
+	#g-map {
+		margin: 0 auto;
+		padding-left: 0;
+	}
+
+	#contact-body {
+		vertical-align: center;
+		background-position: 50% 50%;
+		width: 100%;
+	}
+
+	#contact-container {
+		color: #5B5B60;
+	}
+
+	#pw-body {
+		vertical-align: center;
+		background-position: 50% 50%;
+	}
+
+	#about-section-top {
+		height: 15vh;
+		background-size: contain;
+	}
+
+	#home-img-say {
+		margin-top: 10px;
+	}
+
+	#home-card-txt-2 {
+		text-align: justify;
+	}
+
+	#home-row-2-h {
+		font-size: 40px;
+	}
+
+	#home-section-top {
+		background-size: contain;
+		height: 20vh
+	}
+
+	#home-crop {
+		display: none;
+	}
+
+	#home-nav {
+		background-color: (0,5,5,0.5);
+		background-size: cover;
+	}
+
+	#home-logo-top {
+		margin-top: 50px;
+	}
+
+	#home-h1 {
+		text-align: center;
+	}
+
+} 
+
+/*Desktop Style*/
+
+@media only screen and (min-width: 961px) {
+	
+}

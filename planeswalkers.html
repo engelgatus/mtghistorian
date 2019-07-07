@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>The MTG Historian</title>
+
+	<link rel="icon" type="png/img/jpg" href="assets/images/logo.png">
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+<!-- FontAwesome Icon -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<!-- Boostrap CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+<!-- CSS link -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<!-- Animate CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Judson:700|PT+Sans|Poppins|DM+Serif+Display&display=swap" rel="stylesheet">
+
+	
+</head>
+<body id="pw-body">
+
+
+
+	<nav id="pw-nav" class="navbar navbar-expand-lg navbar-dark container-fluid sticky-top">
+			<a href="home.html" id="nav-phrase" class="navbar-brand font-italic">The MTG Historian</a>
+
+			<button class="navbar-toggler navbar-left" type="button" data-toggle="collapse" data-target="#navbar-nav">
+			<span class="navbar-toggler-icon"></span>
+			<!-- <img id="nav-burger" src="assets/images/logo.png"> -->
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="home.html" class="nav-link">
+						Home
+						</a>
+					</li>
+
+					<li class="nav-item active">
+						<a href="planeswalkers.html" class="nav-link">
+						Planeswalkers
+						</a>				
+					</li>
+
+					<li class="nav-item">
+						<a href="contact.html" class="nav-link">
+						Contact
+						</a>				
+					</li>
+
+					<li class="nav-item">
+						<a href="about.html" class="nav-link">
+						About
+						</a>				
+					</li>
+				</ul>
+			</div>
+			
+		</nav> <!-- end of nav -->
+
+<section id="pw-section" class="container">
+
+		<div id="pw-cards-1" class="row">
+			<div class="col-md-4 text-right">
+				<div class="card bg-transparent border-0" data-toggle="modal" data-target="#modal-gideon">
+					<img id="pw-png" class="image-fluid card-img-top" src="assets/images/planeswalkers-gideon.png">
+					<div class="card-body pw-card-h">
+						<h3 class="card-title">Gideon Jura</h3>			
+					</div>
+				</div>				
+			</div> <!-- end of card -->
+		
+			<div class="col-md-4 text-right">
+				<div class="card bg-transparent border-0" data-toggle="modal" data-target="#modal-liliana">
+					<img id="pw-png" class="image-fluid card-img-top" src="assets/images/planeswalkers-liliana.png">
+					<div class="card-body">
+						<h3 class="card-title pw-card-h">Liliana Vess</h3>						
+					</div>
+				</div>				
+			</div> <!-- end of card -->
+		
+			<div class="col-md-4 text-right">
+				<div class="card bg-transparent border-0" data-toggle="modal" data-target="#modal-nissa">
+					<img id="pw-png" class="image-fluid card-img-top" src="assets/images/planeswalkers-nissa.png">
+					<div class="card-body">
+						<h3 class="card-title pw-card-h">Nissa Revane</h3>						
+					</div>
+				</div>				
+			</div> <!-- end of card -->			
+
+		</div> <!-- end of row 1 -->
+
+
+		<div id="pw-cards-2" class="row">
+			<div class="col-md-4 offset-md-2 text-right">
+				<div class="card bg-transparent border-0" data-toggle="modal" data-target="#modal-jace">
+					<img id="pw-png" class="image-fluid card-img-top" src="assets/images/planeswalkers-jace.png">
+					<div class="card-body">
+						<h3 class="card-title pw-card-h">Jace Beleren</h3>						
+					</div>
+				</div>				
+			</div> <!-- end of card -->
+		
+			<div class="col-md-4 text-right">
+				<div class="card bg-transparent border-0" data-toggle="modal" data-target="#modal-chandra">
+					<img id="pw-png" class="image-fluid card-img-top" src="assets/images/planeswalkers-chandra.png">
+					<div class="card-body">
+						<h3 class="card-title pw-card-h">Chandra Nalaar</h3>						
+					</div>
+				</div>				
+			</div> <!-- end of card -->
+		</div> <!-- end of row 2 -->
+
+
+
+	<!-- Modal Contents -->
+		<div id="modal-gideon" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header justify-content-center">
+						<p class="pw-modal-title text-center">Gideon Jura</p>
+						<button class="close" data-dismiss="modal"></button>
+						<span> &times; </span>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/profile-gideon.jpg" class="img-fluid">
+						<p class="text-center pw-modal-sub">From a troubled street kid to a powerful protector of the innocent</p>
+					</div>
+					<div class="modal-footer">
+						<div class="justify-content-center">
+							<a target="_blank" role="button" href="https://magic.wizards.com/en/articles/archive/uncharted-realms/gideons-origin-kytheon-iora-akros-2015-07-01" class="btn-light pw-modal-button">READ THE ORIGIN STORY</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of gideon modal -->
+
+		<div id="modal-liliana" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header justify-content-center">
+						<p class="pw-modal-title text-center">Liliana Vess</p>
+						<button class="close" data-dismiss="modal"></button>
+						<span> &times; </span>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/profile-liliana.jpg" class="img-fluid">
+						<p class="text-center pw-modal-sub">From an aspiring healer to a devious necromancer who commands legions of zombies</p>
+					</div>
+					<div class="modal-footer">
+						<div class="justify-content-center">
+							<a target="_blank" role="button" href="https://magic.wizards.com/en/articles/archive/uncharted-realms/lilianas-origin-fourth-pact-2015-06-17" class="btn-light pw-modal-button">READ THE ORIGIN STORY</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of liliana modal -->
+
+		<div id="modal-nissa" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header justify-content-center">
+						<p class="pw-modal-title text-center">Nissa Revane</p>
+						<button class="close" data-dismiss="modal"></button>
+						<span> &times; </span>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/profile-nissa.jpg" class="img-fluid">
+						<p class="text-center pw-modal-sub">From a misunderstood outcast to a warrior dedicated to protecting life on all worlds</p>
+					</div>
+					<div class="modal-footer">
+						<div class="justify-content-center">
+							<a target="_blank" role="button" href="https://magic.wizards.com/en/articles/archive/uncharted-realms/nissas-origin-home-2015-07-08" class="btn-light pw-modal-button">READ THE ORIGIN STORY</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of nissa modal -->
+
+		<div id="modal-jace" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header justify-content-center">
+						<p class="pw-modal-title text-center">Jace Beleren</p>
+						<button class="close" data-dismiss="modal"></button>
+						<span> &times; </span>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/profile-jace.jpg" class="img-fluid">
+						<p class="text-center pw-modal-sub">From a talented pariah to a brilliant and mysterious telepath</p>
+					</div>
+					<div class="modal-footer">
+						<div class="justify-content-center">
+							<a target="_blank" role="button" href="https://magic.wizards.com/en/articles/archive/uncharted-realms/jaces-origin-absent-minds-2015-06-24" class="btn-light pw-modal-button">READ THE ORIGIN STORY</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of jace modal -->
+
+		<div id="modal-chandra" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header justify-content-center">
+						<p class="pw-modal-title text-center">Chandra Nalaar</p>
+						<button class="close" data-dismiss="modal"></button>
+						<span> &times; </span>
+					</div>
+					<div class="modal-body">
+						<img src="assets/images/profile-chandra.jpg" class="img-fluid">
+						<p class="text-center pw-modal-sub">From a rebellious troublemaker to an accomplished pyromancer who challenges authority</p>
+					</div>
+					<div class="modal-footer">
+						<div class="justify-content-center">
+							<a target="_blank" role="button" href="https://magic.wizards.com/en/articles/archive/uncharted-realms/chandras-origin-fire-logic-2015-06-10" class="btn-light pw-modal-button">READ THE ORIGIN STORY</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of chandra modal -->
+	<!-- End of Modal Contents -->
+
+	<div class="container-fluid">
+		<footer id="landing-footer" class="text-center footer">
+
+			<p id="landing-footer-txt" class="page p-20 mb-0 mx-20">Engel Gatus | Zuitt Coding Bootcamp</p>
+
+			<a target="_blank" href="https://www.facebook.com/engelgatus"><i id="landing-icon" class="fab fa-facebook fa-2x animated fadeInUp m-2"></i></a>
+
+			<a target="_blank" href="https://www.linkedin.com"><i id="landing-icon" class="fab fa-linkedin fa-2x animated fadeInUp m-2"></i></a>
+
+			<a target="_blank" href="https://www.twitter.com"><i id="landing-icon" class="fab fa-twitter fa-2x animated fadeInUp m-2"></i></a>
+		</footer>
+	</div>
+
+	
+</section>
+
+
+
+
+
+<!-- Bootstrap Dependencies -->
+<!-- jquery first then popper then bootstrap js -->
+<!-- jQuery library -->
+	<script src="assets/js/jquery-3.4.1.min.js"></script>
+
+<!-- Popper JS -->
+	<script src="assets/js/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+	<script src="assets/js/bootstrap.js"></script>
+
+</body>
+</html>
