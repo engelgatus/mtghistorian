@@ -164,6 +164,10 @@ div.card-body > h3.card-title {
 
 }
 
+h3.card-title:hover {
+	background-color: #333;
+}
+
 .pw-modal-title {
 	font-size: 50px;
 	text-align: center;
