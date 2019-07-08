@@ -296,7 +296,8 @@ div.card-body > h3.card-title {
 }
 
 #home-logo-top {
-	margin-top: 220px;
+	height: 20vh;
+	margin: 220px auto 0 auto;
 }
 
 #home-gallery-row,
@@ -335,6 +336,10 @@ div.card-body > h3.card-title {
 .home-card-txt {
 	font-size: 25px;
 	letter-spacing: 2px;
+}
+
+#home-nav-phrase {
+	visibility: hidden;
 }
 
 
@@ -424,6 +429,7 @@ div.card-body > h3.card-title {
 	#home-nav {
 		background-color: (0,5,5,0.5);
 		background-size: cover;
+		background-image: none;
 	}
 
 	#home-logo-top {
@@ -433,6 +439,12 @@ div.card-body > h3.card-title {
 	#home-h1 {
 		text-align: center;
 	}
+
+	#home-nav-phrase {
+		visibility: visible;
+	}
+
+
 }
 
 /*Tablet Style*/
@@ -519,6 +531,7 @@ div.card-body > h3.card-title {
 	#home-nav {
 		background-color: (0,5,5,0.5);
 		background-size: cover;
+		background-image: none;
 	}
 
 	#home-logo-top {
@@ -528,6 +541,12 @@ div.card-body > h3.card-title {
 	#home-h1 {
 		text-align: center;
 	}
+
+	#home-nav-phrase {
+		visibility: visible;
+	}
+
+
 
 } 
 
