@@ -385,8 +385,12 @@ h3.card-title:hover {
 	}
 
 	#g-map {
-		margin: 0 auto;
+		margin: 20px auto;
 		padding-left: 0;
+	}
+
+	#g-map-container {
+		border-radius: 10px;
 	}
 
 	#contact-body {
@@ -405,7 +409,7 @@ h3.card-title:hover {
 	}
 
 	#about-section-top {
-		height: 15	vh;
+		height: 15vh;
 		background-size: contain;
 	}
 
@@ -449,6 +453,7 @@ h3.card-title:hover {
 	}
 
 
+
 }
 
 /*Tablet Style*/
@@ -487,8 +492,12 @@ h3.card-title:hover {
 	}
 
 	#g-map {
-		margin: 0 auto;
+		margin: 20px auto;
 		padding-left: 0;
+	}
+
+	#g-map-container {
+		border-radius: 10px;
 	}
 
 	#contact-body {
@@ -549,6 +558,7 @@ h3.card-title:hover {
 	#home-nav-phrase {
 		visibility: visible;
 	}
+
 
 
 
